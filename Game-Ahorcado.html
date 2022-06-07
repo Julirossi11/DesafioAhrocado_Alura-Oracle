@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Ahorcado</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style-ahorcado.css">
+
+    </head>
+
+    <body>
+        <header>
+
+           
+            <div class="caja">
+                <a href="Ahorcado-AddPalabra.html"><input type="submit" value="Agregar Palabra" class="btn"></a>
+                <a href="Game-Ahorcado.html"><input type="submit" value="Comenzar Juego" class="btn"></a>
+                <h2>Ingrese las letras por teclado:</h2>
+                <p>-No pulse otra tecla que no sea una letra</p>
+                <p>-Las letras incorrectas se mostrarán debajo de la palabra a adivinar</p>
+            </div>
+            
+        </header>
+
+        <div id="div-aparece-ahorcado" class="canvas">
+            <canvas id="horca" height="860px" width="1200px"></canvas>
+            <div class="subrayado"></div>
+
+            <script src="scriptAhorcado.js"></script>
+
+        </div>
+
+        <footer>
+            <p class="copyright">&copy Ahorcado.JR-2022</p>
+        </footer>
+    </body>
+
+
+
+
+
+</html>

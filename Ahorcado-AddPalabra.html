@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Ahorcado-Agregar Palabra</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style-AddPalabra.css">
+
+    </head>
+
+    <body>
+        
+
+        <header>¡Gracias por ayudarnos a mejorar el juego!</header>
+
+        <main>
+            <div >
+                <input style="width:400px;height:100px" type="text" id="palabra" placeholder="Ingrese la palabra" class="texto">
+            </div>
+
+            <h2>Seleccione una opción:</h2>
+
+            <div>
+                <a href="Home-Ahorcado.html"><input type="submit" value="Cancelar" class="btn" ></a>
+                <a><input type="submit" value="Guardar y Comenzar Juego" class="btn" onclick=AgregarLista()></a>
+
+            </div>
+            
+        </main>
+
+        <footer>
+            <p class="copyright">&copy Ahorcado.JR-2022</p>
+        </footer>
+        
+    </body>
+
+
+
+
+</html>
+
+<script>
+    var listaDePalabras = [];
+
+    function AgregarLista(){
+        var nuevaP = document.querySelector("input");
+        nuevaP.focus();
+		a = nuevaP.value;
+        listaDePalabras.add(a);
+        document.getElementById("palabra").value = "";
+
+    }
+    console.log(listaDePalabras);
+</script>
