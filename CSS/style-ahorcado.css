@@ -1,0 +1,102 @@
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+body{
+    background: url(IMgAhorcado/bg.jpg);
+}
+
+h2{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.caja{
+    background-color: transparent;
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+nav{
+    position: absolute;
+    top: 125px;
+    right: 0px;
+
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    font-size: 30px;
+    font-family: Roboto;
+}
+
+main{
+    background: purple;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    color: white;
+    background: transparent;
+
+}
+footer{
+    text-align: center;
+    background: url(ImgAhorcado/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    color: white;
+    background: transparent;
+}
+
+.foto{
+    text-align: center;
+}
+
+.btn{
+    width: 40%;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: darkcyan;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    position: relative;
+    margin: 20px 20px 20px 20px;
+}
+
+.btn:hover{
+    background: darkorange;
+    transform: scale(1.05);
+    
+}
