@@ -11,7 +11,7 @@ header{
 }
 
 body{
-    background: url(ImgAhorcado/bg.jpg);
+    background: url(Imágenes/bg.jpg);
 }
 
 
@@ -67,7 +67,7 @@ a{
 
 footer{
     text-align: center;
-    background: url(imagenes/bg.jpg);
+    background: url(Imágenes/bg.jpg);
     padding: 40px;
 }
 
