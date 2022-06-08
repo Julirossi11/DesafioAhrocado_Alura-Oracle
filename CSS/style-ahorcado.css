@@ -4,7 +4,7 @@ header{
 }
 
 body{
-    background: url(IMgAhorcado/bg.jpg);
+    background: url(Imágenes/bg.jpg);
 }
 
 h2{
@@ -57,7 +57,7 @@ h2{
 }
 footer{
     text-align: center;
-    background: url(ImgAhorcado/bg.jpg);
+    background: url(Imágenes/bg.jpg);
     padding: 40px;
 }
 
