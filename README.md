@@ -1,4 +1,3 @@
-# julirossi11.github.io-Desafio_Ahorcado_Alura-Oracle
 # DesafioAhrocado_Alura-Oracle
 ¡Bienvenidos y Bienvenidas a nuestro segundo desafío!
 
